@@ -2,3 +2,7 @@ body{
     background: lavender;
     font-size: 200%;
 }
+
+canvas{
+    background-color: black;
+}
