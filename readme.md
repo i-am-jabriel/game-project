@@ -5,12 +5,12 @@
 [] have a class for any of the objects that i make in the game
     [x] DrawObject
         [x] draw
-        [] move
+        [x] move
     [x] Mario inherits DrawObject
 
     [] Enemies inherits DrawObject
 
-    [] Obstacles inherits DrawObject
+    [x] Obstacles inherits DrawObject
 
 [X] create a system that draws my character every frame
 
