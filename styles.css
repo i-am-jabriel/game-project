@@ -38,8 +38,25 @@ body .hidden{
     height:600px;
     padding: 20px;
 }
+.main-menu p{
+    margin:10px;
+}
 
 .main-menu img{
     height:100px;
     width:100px;
+}
+.main-menu button{
+    background:limegreen;
+    color:white;
+    transition: all 0.25s;
+    filter: grayscale(0.7) brightness(0.9);
+    padding:8px 12px;
+    border-radius: 8px;
+}
+.main-menu button:hover{
+    filter: none;
+}
+.main-menu button:active{
+    filter:blur(.5px);
 }

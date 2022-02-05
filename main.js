@@ -30,7 +30,7 @@ const mouse = {
     y: 0
 }
 // grabs a rectangle based on the dimensions of the canvas
-const canvasRect = canvas.getBoundingClientRect();
+let canvasRect = canvas.getBoundingClientRect();
 
 
 //when the player moves the mouse over the canvas update the mouse object's x and y;
@@ -257,6 +257,7 @@ function mod(n, m) {
 }
 
 function resizeCanvas(){
+    canvasRect = canvas.getBoundingClientRect();
     canvas.width = document.body.clientWidth;
     // canvas.width = window.outerWidth;
     canvas.height = document.body.clientHeight;
